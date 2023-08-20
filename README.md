@@ -106,7 +106,7 @@ Using the gcc compiler, we compiled the program to get the output.
 `gcc sumton.c`
 `.\a.out`
 
-<img width="800" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/bd2cfc34-aeec-4c7d-81ce-6a902fe78a33">
+<img width="1000" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/bd2cfc34-aeec-4c7d-81ce-6a902fe78a33">
 
 ## RISCV GCC Compiler and Dissemble
 
@@ -124,11 +124,11 @@ In order to view the main section, type
 `/main`.
 Here, since we used -O1 optimisation, the number of instructions are 15.
 
-<img width="453" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/93402d4c-2c60-4499-93e7-57187b1636a7">
+<img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/93402d4c-2c60-4499-93e7-57187b1636a7">
 
 When we use -Ofast optimisation, we can see that the number of instructions have been reduced to 12.
 
-<img width="422" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/e3ad8b0f-ce56-4820-a3f0-8a3008d6a620">
+<img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/e3ad8b0f-ce56-4820-a3f0-8a3008d6a620">
 
 
 - -Onumber : level of optimisation required
