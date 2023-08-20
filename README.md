@@ -196,7 +196,7 @@ int main(){
 	return 0;
 }
 ```
-<img width="531" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/ada3cb30-7388-422a-82bc-3db70ce41d5e">
+<img width="800" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/ada3cb30-7388-422a-82bc-3db70ce41d5e">
 
 
 We wrote a C program that shows the maximum and minimum values of 64bit signed numbers.
@@ -213,5 +213,5 @@ int main(){
 }
 ```
 
-<img width="481" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/4561defd-7246-4a4a-97dc-d0c7b0d2f9e8">
+<img width="800" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/4561defd-7246-4a4a-97dc-d0c7b0d2f9e8">
 
