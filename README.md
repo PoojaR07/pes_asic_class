@@ -106,7 +106,7 @@ Using the gcc compiler, we compiled the program to get the output.
 `gcc sumton.c`
 `.\a.out`
 
-<img width="345" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/bd2cfc34-aeec-4c7d-81ce-6a902fe78a33">
+<img width="400" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/bd2cfc34-aeec-4c7d-81ce-6a902fe78a33">
 
 ## RISCV GCC Compiler and Dissemble
 
