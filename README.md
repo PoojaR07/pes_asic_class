@@ -156,14 +156,14 @@ For different instances,
 
 `spike pk sum1ton.o` is used to check whether the instructions produced are right to give the correct output.
 
-<img width="700" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/f127a61f-99df-4eb1-87cd-8ac76f9baf77">
+<img width="650" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/f127a61f-99df-4eb1-87cd-8ac76f9baf77">
 
 
 `spike -d pk sum1ton.c` is used for debugging.
 
 The contents of the registers can also be viewed.
 
-<img width="700" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/aeff2764-1f92-47ad-97d2-441bcbe2b95f">
+<img width="650" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/aeff2764-1f92-47ad-97d2-441bcbe2b95f">
 
 - press ENTER : to show the first line and successive ENTER to show successive lines
 - reg 0 a2 : to check content of register a2 0th core
@@ -196,7 +196,7 @@ int main(){
 	return 0;
 }
 ```
-<img width="800" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/ada3cb30-7388-422a-82bc-3db70ce41d5e">
+<img width="650" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/ada3cb30-7388-422a-82bc-3db70ce41d5e">
 
 
 We wrote a C program that shows the maximum and minimum values of 64bit signed numbers.
@@ -213,7 +213,7 @@ int main(){
 }
 ```
 
-<img width="800" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/4561defd-7246-4a4a-97dc-d0c7b0d2f9e8">
+<img width="700" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/4561defd-7246-4a4a-97dc-d0c7b0d2f9e8">
 
 # Application Binary Interface
 ## Introduction to ABI
@@ -329,4 +329,5 @@ this would generate object file `custom1to9.o`.
 **Execution:** To execute the object file run the command 
 
 `spike pk custom1to9.o`
-<img width="517" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/8395e667-485a-414f-b51d-fee5028b5059">
+
+<img width="800" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/8395e667-485a-414f-b51d-fee5028b5059">
