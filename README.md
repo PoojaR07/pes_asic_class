@@ -156,14 +156,14 @@ For different instances,
 
 `spike pk sum1ton.o` is used to check whether the instructions produced are right to give the correct output.
 
-<img width="650" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/f127a61f-99df-4eb1-87cd-8ac76f9baf77">
+<img width="550" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/f127a61f-99df-4eb1-87cd-8ac76f9baf77">
 
 
 `spike -d pk sum1ton.c` is used for debugging.
 
 The contents of the registers can also be viewed.
 
-<img width="650" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/aeff2764-1f92-47ad-97d2-441bcbe2b95f">
+<img width="550" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/aeff2764-1f92-47ad-97d2-441bcbe2b95f">
 
 - press ENTER : to show the first line and successive ENTER to show successive lines
 - reg 0 a2 : to check content of register a2 0th core
