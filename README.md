@@ -282,7 +282,7 @@ ABI names for registers serve as a standardized way to designate the purpose and
 - In the assembly file, we declared assembly functions with appropriate signatures that match the calling conventions of your platform.
 
 **C Program**
-`custom1to9.c`
+`1to9_custom.c`
   ``` c
   #include <stdio.h>
   
@@ -323,12 +323,12 @@ ret
 ## Simulate C Program using Function Call
 **Compilation:** To compile C code and Asseembly file use the command
 
-`riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o custom1to9.o custom1to9.c load.s` 
+`riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o 1to9_custom.o 1to9_custom.c load.s` 
 
-this would generate object file `custom1to9.o`.
+this would generate object file `1to9_custom.o`.
 
 **Execution:** To execute the object file run the command 
 
-`spike pk custom1to9.o`
+`spike pk 1to9_custom.o`
 
 <img width="800" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/8395e667-485a-414f-b51d-fee5028b5059">
