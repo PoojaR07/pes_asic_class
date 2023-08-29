@@ -44,11 +44,8 @@ This GitHub repository focuses on VLSI Physical Design for ASICs using open-sour
 ## DAY 3
 **Introduction to Verilog RTL design and Synthesis**
 + Introduction to open-source simulator iverilog
-  - [Simulator](#simulator)
-  - [Design](#design)
-  - [Testbench](#testbench)
-  - [How simulator works](#how-simulator-works)
-
+  - [Introduction to iverilog design testbench](#introduction-to-iverilog-design-testbench)
+    
 + Labs using iverilog and gtkwave
   - [Environment setup for running labs](#environment-setup-for-running-labs)
   - [iverilog and gtkwave simulation](#iverilog-and-gtkwave-simulation)
@@ -64,7 +61,7 @@ This GitHub repository focuses on VLSI Physical Design for ASICs using open-sour
   - [Yosys good mux part2](#yosys-good-mux-part2)
   - [Yosys good mux part3](#yosys-good-mux-part3)
   
-
+# DAY -1
 # Introduction to Basic Keywords
 ## Introduction
 - **ISA (Instruction Set Archhitecture)**
@@ -240,6 +237,7 @@ int main(){
 
 <img width="700" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/4561defd-7246-4a4a-97dc-d0c7b0d2f9e8">
 
+# DAY - 2
 # Application Binary Interface
 ## Introduction to ABI
 + An Application Binary Interface (ABI) is a set of rules and conventions that dictate how binary code interacts with and communicates with other binary code, typically at the level of machine code or compiled code. In simpler terms, it defines the interface between two software components or systems that are written in different programming languages, compiled by different compilers, or running on different hardware architectures.
@@ -357,3 +355,27 @@ this would generate object file `1to9_custom.o`.
 `spike pk 1to9_custom.o`
 
 <img width="800" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/8395e667-485a-414f-b51d-fee5028b5059">
+
+# DAY - 3
+# Introduction to open-source simulator iverilog
+## Introduction to iverilog design testbench
+- **Simulator**
+  - Simulator is the tool used for simulating the design and iverilog is the tool used for this course.
+  - RTL design is checked for adherence to the spec by simulating the design.
+
+- **Design**.
+  - Design is the actual Verilog code or set of verilog codes which has the intended functionality to meet with required specifications.
+
+- **Testbench**
+  - Testbench is the setup to apply stimulus(test_vectors) to the design to check its functionality.
+<img width="800" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/eb806b04-e6c0-4b03-8214-80cf0183ad76">
+
+- **How simulator works?**.
+  - simulator looks for the changes on the input signals.
+  - Upon changes to the input the output is evaluated.
+ 
+- **GTKWave**
+  - Used for viewing the simulated waveforms.
+    
+- **iverilog based simulation flow**
+<img width="800" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/0bbdc2e2-0b2a-4b26-8ed0-7eae4c7e3bf6">
