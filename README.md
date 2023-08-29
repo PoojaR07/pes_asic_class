@@ -40,6 +40,31 @@ This GitHub repository focuses on VLSI Physical Design for ASICs using open-sour
   - [Algorithm for C Program using ASM](#algorithm-for-c-program-using-asm)
   - [Review ASM Function Calls](#review-asm-function-calls)
   - [Simulate C Program using Function Call](#simulate-c-program-using-function-call)
+ 
+## DAY 3
+**Introduction to Verilog RTL design and Synthesis**
++ Introduction to open-source simulator iverilog
+  - [Simulator](#simulator)
+  - [Design](#design)
+  - [Testbench](#testbench)
+  - [How simulator works](#how-simulator-works)
+
++ Labs using iverilog and gtkwave
+  - [Environment setup for running labs](#environment-setup-for-running-labs)
+  - [iverilog and gtkwave simulation](#iverilog-and-gtkwave-simulation)
+
++ Introduction to yosys and logic synthesis
+  - [Synthesizer](#synthesizer)
+  - [Synthesis](#synthesis)
+  - [What is .lib](#what-is-.lib)
+  - [Faster cells vs slow cells](#faster-cells-vs-slow-cells)
+
++ Labs using yosys and Sky130 PDKs
+  - [Yosys good mux part1](#yosys-good-mux-part1)
+  - [Yosys good mux part2](#yosys-good-mux-part2)
+  - [Yosys good mux part3](#yosys-good-mux-part3)
+  
+
 # Introduction to Basic Keywords
 ## Introduction
 - **ISA (Instruction Set Archhitecture)**
