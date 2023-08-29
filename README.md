@@ -10,60 +10,13 @@ This GitHub repository focuses on VLSI Physical Design for ASICs using open-sour
 + clock Tree Synthesis
 + Routing
 
-# TABLE OF CONTENTS
-## DAY 1 
-**Introduction to RISCV ISA and GNU Compiler Toolchain**
-+ Introduction to Basic Keywords
-  - [Introduction](#introduction)
-  - [From Application to Hardware](#from-apps-to-hardware)
-  - [Detail Description of Course Content](#detail-description-of-course-content)
 
-+ Labwork for RISCV Toolchain
-  - [C Program](#c-program)
-  - [RISCV GCC Compiler and Dissemble](#riscv-gcc-compiler-and-dissemble)
-  - [Spike Simulation and Debug](#spike-simulation-and-debug)
-
-+ Integer Number Representation  
-  - [64-bit Unsigned Numbers](#64-bit-unsigned-numbers)
-  - [64-bit Signed Numbers](#64-bit-signed-numbers)
-  - [Labwork For Signed and Unsigned Numbers](#labwork-for-signed-and-unsigned-numbers)
-
-## DAY 2 
-**Introduction to ABI and Basic Verification Flow**
-+ Application Binary Interface
-  - [Introduction to ABI](#introduction-to-abi)
-  - [Memory Allocation for Double Words](#memory-allocation-for-double-words)
-  - [Load, Add and Store Instructions](#load,-add-and-store-instructions)
-  - [32-Registers and their ABI Names](#32-registers-and-their-abi-names)
-
-+ Labwork using ABI Function Calls
-  - [Algorithm for C Program using ASM](#algorithm-for-c-program-using-asm)
-  - [Review ASM Function Calls](#review-asm-function-calls)
-  - [Simulate C Program using Function Call](#simulate-c-program-using-function-call)
- 
-## DAY 3
-**Introduction to Verilog RTL design and Synthesis**
-+ Introduction to open-source simulator iverilog
-  - [Introduction to iverilog design testbench](#introduction-to-iverilog-design-testbench)
-    
-+ Labs using iverilog and gtkwave
-  - [Environment setup for running labs](#environment-setup-for-running-labs)
-  - [iverilog and gtkwave simulation](#iverilog-and-gtkwave-simulation)
-
-+ Introduction to yosys and logic synthesis
-  - [Synthesizer](#synthesizer)
-  - [Synthesis](#synthesis)
-  - [What is .lib](#what-is-.lib)
-  - [Faster cells vs slow cells](#faster-cells-vs-slow-cells)
-
-+ Labs using yosys and Sky130 PDKs
-  - [Yosys good mux part1](#yosys-good-mux-part1)
-  - [Yosys good mux part2](#yosys-good-mux-part2)
-  - [Yosys good mux part3](#yosys-good-mux-part3)
-  
+# COURSE
 # DAY -1
 # Introduction to Basic Keywords
-## Introduction
+<details>
+<summary>Introduction</summary>
+	
 - **ISA (Instruction Set Archhitecture)**
   - ISA defines the interface between a computer's hardware and its software, specifically how the processor and its components interact with the software instructions that drive the execution of tasks.
   - It encompasses a set of instructions, addressing modes, data types, registers, memory organization, and the mechanisms for executing and managing instructions.
@@ -73,9 +26,11 @@ This GitHub repository focuses on VLSI Physical Design for ASICs using open-sour
   - RISC architectures simplify the instruction set by focusing on a smaller set of instructions, each of which can be executed in a single clock cycle. This approach usually leads to faster execution of individual instructions. 
 
 <img width="536" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/e31d7c49-7160-443f-b73f-585cde8f3419">
+</details>
 
+<details>
+<summary>From Apps to Hardware</summary>
 
-## From Apps to Hardware
 1. **Apps:** Application software, often referred to simply as "applications" or "apps," is a type of computer software that is designed to perform specific tasks or functions for end-users.
 2. **System software:** System software refers to a category of computer software that acts as an intermediary between the hardware components of a computer system and the user-facing application software. It provides essential services, manages hardware resources, and enables the execution of application programs. System software plays a critical role in maintaining the overall functionality, security, and performance of a computer system.'
 3. **Operating System:** The operating system is a fundamental piece of software that manages hardware resources and provides various services for both users and application programs. It controls tasks such as memory management, process scheduling, file system management, and user interface interaction. Examples of operating systems include Microsoft Windows, macOS, Linux, and Android.
@@ -87,8 +42,11 @@ This GitHub repository focuses on VLSI Physical Design for ASICs using open-sour
 6. **RTL:** RTL serves as an abstraction level in the design process that represents the behavior of a digital circuit in terms of registers and the operations that transfer data between them.
 
  7. **Hardware:** Hardware refers to the physical components of a computer system or any electronic device. It encompasses all the tangible parts that make up a computing or electronic device and enable it to perform various tasks.
+</details>
 
-## Detail Description of Course Content
+<details>
+<summary>Detail Description of Course Content</summary>
+
 **Pseudo Instructions:** Pseudo-instructions are used to simplify programming, improve code readability, and reduce the number of explicit instructions a programmer needs to write. They are especially useful for common programming patterns that involve multiple instructions.
 `Ex: li, mv`.
 
@@ -105,9 +63,12 @@ This GitHub repository focuses on VLSI Physical Design for ASICs using open-sour
 **Memory Allocation and Stack Pointer** 
 - Memory allocation refers to the process of assigning and managing memory segments for various data structures, variables, and objects used by a program. It involves allocating memory space from the system's memory pool and releasing it when it is no longer needed to prevent memory leaks.
 - The stack pointer is a register used by a program to keep track of the current position of the program's execution on the call stack. 
+</details>
 
 # Labwork for RISCV Toolchain
-## C Program
+<details>
+<summary>C Program</summary>
+
 We wrote a C program for calculating the sum from 1 to n using a text editor, leafpad.
 
 `leafpad sumton.c`
@@ -129,8 +90,10 @@ Using the gcc compiler, we compiled the program to get the output.
 `.\a.out`
 
 <img width="850" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/bd2cfc34-aeec-4c7d-81ce-6a902fe78a33">
+</details>
 
-## RISCV GCC Compiler and Dissemble
+<details>
+<summary>RISCV GCC Compiler and Dissemble</summary>
 
 Using the riscv gcc compiler, we compiled the C program.
 
@@ -172,9 +135,10 @@ For different instances,
 - press ```n``` to search next occurance
 - press ```N``` to search for previous occurance. 
 - use ```esc :q``` to quit
+</details>
 
-
-## Spike Simulation and Debug
+<details>
+<summary>Spike Simulation and Debug</summary>
 
 `spike pk sum1ton.o` is used to check whether the instructions produced are right to give the correct output.
 
@@ -190,19 +154,25 @@ The contents of the registers can also be viewed.
 - press ENTER : to show the first line and successive ENTER to show successive lines
 - reg 0 a2 : to check content of register a2 0th core
 - q : to quit the debug process
+</details>
 
 # Integer Number Representation 
 
-## Unsigned Numbers
+<details>
+<summary>Unsigned Numbers</summary>
 - Unsigned numbers, also known as non-negative numbers, are numerical values that represent magnitudes without indicating direction or sign.
 - Range: [0, (2^n)-1 ]
+</details>
 
-## Signed Numbers
+<details>
+<summary>Signed Numbers</summary>
 - Signed numbers are numerical values that can represent both positive and negative magnitudes, along with zero.
 - Range : Positive : [0 , 2^(n-1)-1]
           Negative : [-1 to 2^(n-1)]
- 
-## Labwork
+</details>
+
+<details>
+<summary>Labwork</summary>
 
 We wrote a C program that shows the maximum and minimum values of 64bit unsigned numbers.
 
@@ -236,6 +206,7 @@ int main(){
 ```
 
 <img width="700" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/4561defd-7246-4a4a-97dc-d0c7b0d2f9e8">
+</details>
 
 # DAY - 2
 # Application Binary Interface
