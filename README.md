@@ -13,7 +13,7 @@ This GitHub repository focuses on VLSI Physical Design for ASICs using open-sour
 
 # COURSE
 # DAY -1
-## Introduction to Basic Keywords
+## ▪ Introduction to Basic Keywords
 <details>
 <summary>Introduction</summary>
 	
