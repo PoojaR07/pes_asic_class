@@ -406,8 +406,9 @@ this would generate object file `1to9_custom.o`.
 
 </details>
 
+# Introduction to yosys and logic synthesis
 <details>
-<summary>Introduction to yosys and logic synthesis</summary>
+<summary>Introduction to yosys</summary>
 
  <img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/d35aae33-f873-4e82-a052-b111a9f6d733">
  
@@ -434,3 +435,18 @@ this would generate object file `1to9_custom.o`.
   	- Faster cells do not come free, they come at penalty of area and power.
 </details>
 
+# Labs using Yosys and Sky130 PDKs
+<details>
+<summary>Lab-1</summary>
+	
+- **Simulating 2:1 mux using iverilog and gtkwave**
+- **Design**
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/553ec117-c836-47ab-a63b-9bb064a91b38">
+
+- **Testbench**
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/6cc2b11f-f47b-4830-8bee-731da772712d">
+
+- **Simulated waveform in gtkwave**
+<img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/54e7f0aa-7967-461f-bfbc-6e47f649ff9f">
+
+</details>
