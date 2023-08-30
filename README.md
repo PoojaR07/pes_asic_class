@@ -215,7 +215,10 @@ int main(){
 <summary>Introduction to ABI</summary>
 + An Application Binary Interface (ABI) is a set of rules and conventions that dictate how binary code interacts with and communicates with other binary code, typically at the level of machine code or compiled code. In simpler terms, it defines the interface between two software components or systems that are written in different programming languages, compiled by different compilers, or running on different hardware architectures.
 + The ABI is crucial for enabling interoperability between different software components, such as different libraries, object files, or even entire programs. It allows components compiled independently and potentially on different platforms to work seamlessly together by adhering to a common set of rules for communication and data representation.
-## Memmory Allocation for Double Words
+</details>
+
+<details>
+<summary>Memmory Allocation for Double Words</summary>
 64-bit number (or any multi-byte value) can be loaded into memory in little-endian or big-endian. It involves understanding the byte order and arranging the bytes accordingly
 1. **Little-Endian:**
 In little-endian representation, you store the least significant byte (LSB) at the lowest memory address and the most significant byte (MSB) at the highest memory address.
@@ -264,20 +267,25 @@ In this Example
 - `x10` and `x11` are the source registers.
 </details>
 
-## 32-Registers and their ABI Names
+<details>
+<summary>2-Registers and their ABI Names</summary>
 The choice of the number of registers in a processor's architecture, such as the RISC-V RV64 architecture with its 32 general-purpose registers, involves a trade-off between various factors. While modern processors can have more registers but increasing the number of registers could lead to larger instructions, which would take up more memory and potentially slow down instruction fetch and decode.
 #### ABI Names
 ABI names for registers serve as a standardized way to designate the purpose and usage of specific registers within a software ecosystem. These names play a critical role in maintaining compatibility, optimizing code generation, and facilitating communication between different software components. 
 
 <img width="430" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/3b7aed64-37cd-492f-b9b5-cd840103566a">
+</details>
 
 # Labwork using ABI Function Calls
-## Algorithm for C Program using ASM
+<details>
+<summary>Algorithm for C Program using ASM</summary>
 - Incorporating assembly language code into a C program can be done using inline assembly or by linking separate assembly files with your C code.
 - When you call an assembly function from your C code, the C calling convention is followed, including pushing arguments onto the stack or passing them in registers as required.
 - The program executes the assembly function, following the assembly instructions you've provided.
+</details>
 
-## Review ASM Function Calls
+<details>
+<summary>Review ASM Function Calls</summary>
 - We wrote C code in one file and your assembly code in a separate file.
 - In the assembly file, we declared assembly functions with appropriate signatures that match the calling conventions of your platform.
 
@@ -319,8 +327,10 @@ add a0, a4, zero
 ret
 ```
 <img width="517" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/444090c4-0bd0-4669-b752-55cb4143cfed">
+</details>
 
-## Simulate C Program using Function Call
+<details>
+<summary>Simulate C Program using Function Call</summary>
 **Compilation:** To compile C code and Asseembly file use the command
 
 `riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o 1to9_custom.o 1to9_custom.c load.s` 
@@ -332,10 +342,13 @@ this would generate object file `1to9_custom.o`.
 `spike pk 1to9_custom.o`
 
 <img width="800" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/8395e667-485a-414f-b51d-fee5028b5059">
+</details>
 
 # DAY - 3
 # Introduction to open-source simulator iverilog
-## Introduction to iverilog design testbench
+
+<details>
+<summary>Introduction to iverilog design testbench</summary>
 - **Simulator**
   - Simulator is the tool used for simulating the design and iverilog is the tool used for this course.
   - RTL design is checked for adherence to the spec by simulating the design.
@@ -345,7 +358,7 @@ this would generate object file `1to9_custom.o`.
 
 - **Testbench**
   - Testbench is the setup to apply stimulus(test_vectors) to the design to check its functionality.
-<img width="800" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/eb806b04-e6c0-4b03-8214-80cf0183ad76">
+<img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/eb806b04-e6c0-4b03-8214-80cf0183ad76">
 
 - **How simulator works?**.
   - simulator looks for the changes on the input signals.
@@ -355,4 +368,5 @@ this would generate object file `1to9_custom.o`.
   - Used for viewing the simulated waveforms.
     
 - **iverilog based simulation flow**
-<img width="800" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/0bbdc2e2-0b2a-4b26-8ed0-7eae4c7e3bf6">
+<img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/0bbdc2e2-0b2a-4b26-8ed0-7eae4c7e3bf6">
+</details>
