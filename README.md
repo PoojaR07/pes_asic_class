@@ -380,3 +380,31 @@ this would generate object file `1to9_custom.o`.
 - **iverilog based simulation flow**
 <img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/0bbdc2e2-0b2a-4b26-8ed0-7eae4c7e3bf6">
 </details>
+
+# Labs using iverilog and gtkwave
+
+<details>
+<summary>Introduction to labs</summary>
+	
+- **Environment setup for running labs**
+  
+<img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/1850bed7-a7db-46de-ba43-f850697d6e26">
+</details>
+
+<details>
+<summary>Introduction to iverilog and gtkwave</summary>
+	
+- **Simulating 2:1 mux using iverilog and gtkwave**
+- **Design**
+<img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/553ec117-c836-47ab-a63b-9bb064a91b38">
+
+- **Testbench**
+<img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/6cc2b11f-f47b-4830-8bee-731da772712d">
+
+- **Simulated waveform in gtkwave**
+<img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/54e7f0aa-7967-461f-bfbc-6e47f649ff9f">
+
+</details>
+
+
+
