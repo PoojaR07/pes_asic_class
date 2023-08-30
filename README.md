@@ -65,7 +65,7 @@ This GitHub repository focuses on VLSI Physical Design for ASICs using open-sour
 - The stack pointer is a register used by a program to keep track of the current position of the program's execution on the call stack. 
 </details>
 
-# Labwork for RISCV Toolchain
+## Labwork for RISCV Toolchain
 <details>
 <summary>C Program</summary>
 
@@ -156,7 +156,7 @@ The contents of the registers can also be viewed.
 - q : to quit the debug process
 </details>
 
-# Integer Number Representation 
+## Integer Number Representation 
 
 <details>
 <summary>Unsigned Numbers</summary>
@@ -211,7 +211,7 @@ int main(){
 </details>
 
 # DAY - 2
-# Application Binary Interface
+## Application Binary Interface
 
 <details>
 <summary>Introduction to ABI</summary>
@@ -282,7 +282,7 @@ ABI names for registers serve as a standardized way to designate the purpose and
 <img width="430" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/3b7aed64-37cd-492f-b9b5-cd840103566a">
 </details>
 
-# Labwork using ABI Function Calls
+## Labwork using ABI Function Calls
 <details>
 <summary>Algorithm for C Program using ASM</summary>
 	
@@ -354,7 +354,7 @@ this would generate object file `1to9_custom.o`.
 </details>
 
 # DAY - 3
-# Introduction to open-source simulator iverilog
+## Introduction to open-source simulator iverilog
 
 <details>
 <summary>Introduction to iverilog design testbench</summary>
@@ -381,7 +381,7 @@ this would generate object file `1to9_custom.o`.
 <img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/0bbdc2e2-0b2a-4b26-8ed0-7eae4c7e3bf6">
 </details>
 
-# Labs using iverilog and gtkwave
+## Labs using iverilog and gtkwave
 
 <details>
 <summary>Introduction to labs</summary>
@@ -406,7 +406,7 @@ this would generate object file `1to9_custom.o`.
 
 </details>
 
-# Introduction to yosys and logic synthesis
+## Introduction to yosys and logic synthesis
 <details>
 <summary>Introduction to yosys</summary>
 
@@ -435,7 +435,7 @@ this would generate object file `1to9_custom.o`.
   	- Faster cells do not come free, they come at penalty of area and power.
 </details>
 
-# Labs using Yosys and Sky130 PDKs
+## Labs using Yosys and Sky130 PDKs
 <details>
 <summary>Lab-1</summary>
 	
