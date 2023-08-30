@@ -396,15 +396,41 @@ this would generate object file `1to9_custom.o`.
 	
 - **Simulating 2:1 mux using iverilog and gtkwave**
 - **Design**
-<img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/553ec117-c836-47ab-a63b-9bb064a91b38">
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/553ec117-c836-47ab-a63b-9bb064a91b38">
 
 - **Testbench**
-<img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/6cc2b11f-f47b-4830-8bee-731da772712d">
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/6cc2b11f-f47b-4830-8bee-731da772712d">
 
 - **Simulated waveform in gtkwave**
 <img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/54e7f0aa-7967-461f-bfbc-6e47f649ff9f">
 
 </details>
 
+<details>
+<summary>Introduction to yosys and logic synthesis</summary>
 
+ <img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/d35aae33-f873-4e82-a052-b111a9f6d733">
+ 
+- **Synthesizer**
+- A tool used for converting the RTL to netlist.
+- Yosys is the synthesizer tool used in this course.
+
+- **Synthesis**
+- RTL to Gate level translation.
+- The design is converted into gates and the connections are made between the gates.
+- This is given out as a file called netlist.
+
+- **What is .lib?**
+- Collection of logic modules.
+- Includes basic logic gates like AND, OR, NOT,etc.
+- Different flavours of same gate.
+
+- **Faster cells vs slow cells**
+- load in digital logic circuit-> Capacitance
+- Faster the charging/discharging of capacitance -> lesser the cell delay
+  	- to charge/discharge the capacitance fast, we need transistors capable of sourcing more current.
+  	- Wider transistors -> Low Delay -> More area and power as well.
+  	- Narrow transistors -> More delay -> Less area and power
+  	- Faster cells do not come free, they come at penalty of area and power.
+</details>
 
