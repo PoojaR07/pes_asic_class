@@ -463,3 +463,15 @@ this would generate object file `1to9_custom.o`.
 
 # DAY - 4
 ## Introduction to timing .libs
+
+<details>
+<summary> Introduction to dot Lib part1</summary>
+</details>
+
+<details>
+<summary> Introduction to dot Lib part2</summary>
+</details>
+
+<details>
+<summary> Introduction to dot Lib part3</summary>
+</details>
