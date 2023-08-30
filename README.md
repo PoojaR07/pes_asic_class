@@ -448,5 +448,15 @@ this would generate object file `1to9_custom.o`.
 
 - **Synthesis result**
 <img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/81567934-02e3-4d54-ac2f-bf1eef1744d4">
+</details>
+
+<details>
+<summary>Lab-2</summary>
+	
+- **Netlist with extra information**
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/e07fe6c3-966c-44f5-bd43-05a6786ed586">
+
+- **Smaller netlist**
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/763b3bc6-aa03-4b93-9180-c66719374dce">
 
 </details>
