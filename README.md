@@ -439,14 +439,14 @@ this would generate object file `1to9_custom.o`.
 <details>
 <summary>Lab-1</summary>
 	
-- **Simulating 2:1 mux using iverilog and gtkwave**
-- **Design**
-<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/553ec117-c836-47ab-a63b-9bb064a91b38">
+- **Invoking yosys**
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/c4f34f94-27e2-4f60-a6eb-55b6fe1b299b">
 
-- **Testbench**
-<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/6cc2b11f-f47b-4830-8bee-731da772712d">
+- **Synthesizing 2:1 mux**
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/29f429af-ec5e-44db-898e-bcd4141b60d1">
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/2e049f37-0d9e-4fa1-9e61-946c2ef5e2e0">
 
-- **Simulated waveform in gtkwave**
-<img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/54e7f0aa-7967-461f-bfbc-6e47f649ff9f">
+- **Synthesis result**
+<img width="600" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/81567934-02e3-4d54-ac2f-bf1eef1744d4">
 
 </details>
