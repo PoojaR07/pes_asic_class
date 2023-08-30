@@ -460,3 +460,6 @@ this would generate object file `1to9_custom.o`.
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/763b3bc6-aa03-4b93-9180-c66719374dce">
 
 </details>
+
+# DAY - 4
+## Introduction to timing .libs
