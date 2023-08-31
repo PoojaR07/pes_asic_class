@@ -553,3 +553,32 @@ this would generate object file `1to9_custom.o`.
 + `gvim dff_asyncres_syncres.v`
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/63f16667-af33-4ac5-b5ee-e02c853a36c8">
 </details>
+
+
+<details>
+<summary>Lab Flop Synthesis Simulations </summary>
+
+**D Flip-Flop with Asynchronous Reset** 
+-  Simulation
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/cb1a8093-e5e9-43f7-9b11-0b696e832185">
+
+-  Synthesis
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/efb6c6d7-d703-47ba-a4e3-2d26a0700f11">
+
+
+**D Flip_Flop with Asynchronous Set** 
+-  Simulation
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/3574d670-cb92-470d-9f76-8835c019cabe">
+
+-  Synthesis
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/59bae0f5-08b8-4925-a833-ceb022e3c999">
+
+**D Flip-Flop with Synchronous Reset** 
+-  Simulation
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/f97f06b2-5e80-4487-8b11-384999452fa2">
+
+-  Synthesis
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/874acc14-fa4e-4ddb-b07e-401cb5da8244">
+
+</details>
+
