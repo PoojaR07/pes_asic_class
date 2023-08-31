@@ -465,13 +465,6 @@ this would generate object file `1to9_custom.o`.
 ## Introduction to timing .libs
 
 <details>
-<summary> Introduction to dot Lib part1</summary>
+<summary> Introduction to dot .lib </summary>
 </details>
 
-<details>
-<summary> Introduction to dot Lib part2</summary>
-</details>
-
-<details>
-<summary> Introduction to dot Lib part3</summary>
-</details>
