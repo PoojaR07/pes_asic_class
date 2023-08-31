@@ -488,10 +488,10 @@ this would generate object file `1to9_custom.o`.
 
 - **Hierarchical Synthesis** - Hierarchical synthesis is an approach in digital design and logic synthesis where complex designs are broken down into smaller, more manageable modules or sub-circuits, and each module is synthesized individually. These synthesized modules are then integrated back into the overall design hierarchy. This approach helps manage the complexity of large designs and allows designers to work on different parts of the design independently.
 - Here we use mutiple module.v and invoke yosys
-<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/942896f2-8a9d-44cf-bff6-e43774f9ac34">
+<img width="700" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/942896f2-8a9d-44cf-bff6-e43774f9ac34">
 
 - synth -top multiple_modules to set it as top module
-<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/cd097238-4a95-4f81-8865-003b0e41680e">
+<img width="400" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/cd097238-4a95-4f81-8865-003b0e41680e">
 
 - To view the netlist show multiple_modules
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/aec962d9-7ad2-442c-a963-12c8e8439059">
