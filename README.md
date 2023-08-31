@@ -549,7 +549,8 @@ this would generate object file `1to9_custom.o`.
 -  When the synchronous reset is high at the positive edge of the clock, the output is forced to 0.
 -  Else, on the positive edge of the clock, the stored value is updated at the output.
 -  Here, it is a combination of both synchronous and asynchronous reset DFF.
-  
+
++ `gvim dff_const4.v`
 + `gvim dff_asyncres_syncres.v`
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/63f16667-af33-4ac5-b5ee-e02c853a36c8">
 </details>
