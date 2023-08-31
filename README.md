@@ -486,7 +486,7 @@ this would generate object file `1to9_custom.o`.
 <details>
 <summary> Hierarchical Synthesis Flat Synthesis </summary>
 
-- **Hierarchical Synthesis **
+- **Hierarchical Synthesis**
 - Hierarchical synthesis is an approach in digital design and logic synthesis where complex designs are broken down into smaller, more manageable modules or sub-circuits, and each module is synthesized individually. These synthesized modules are then integrated back into the overall design hierarchy. This approach helps manage the complexity of large designs and allows designers to work on different parts of the design independently.
 - Here we use mutiple module.v and invoke yosys
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/942896f2-8a9d-44cf-bff6-e43774f9ac34">
