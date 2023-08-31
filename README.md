@@ -486,8 +486,7 @@ this would generate object file `1to9_custom.o`.
 <details>
 <summary> Hierarchical Synthesis Flat Synthesis </summary>
 
-- **Hierarchical Synthesis**
-- Hierarchical synthesis is an approach in digital design and logic synthesis where complex designs are broken down into smaller, more manageable modules or sub-circuits, and each module is synthesized individually. These synthesized modules are then integrated back into the overall design hierarchy. This approach helps manage the complexity of large designs and allows designers to work on different parts of the design independently.
+- **Hierarchical Synthesis** - Hierarchical synthesis is an approach in digital design and logic synthesis where complex designs are broken down into smaller, more manageable modules or sub-circuits, and each module is synthesized individually. These synthesized modules are then integrated back into the overall design hierarchy. This approach helps manage the complexity of large designs and allows designers to work on different parts of the design independently.
 - Here we use mutiple module.v and invoke yosys
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/942896f2-8a9d-44cf-bff6-e43774f9ac34">
 
@@ -500,8 +499,7 @@ this would generate object file `1to9_custom.o`.
 - !gvim multiple_modules_hier.v
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/5c9256a2-06bf-4995-bd38-1437ba883b46">
 
-- **Flattened Synthesis**
-- Flattened synthesis is the opposite of hierarchical synthesis. Instead of maintaining the hierarchical structure of the design during synthesis, flattened synthesis combines all modules and sub-modules into a single, flat representation
+- **Flattened Synthesis** - Flattened synthesis is the opposite of hierarchical synthesis. Instead of maintaining the hierarchical structure of the design during synthesis, flattened synthesis combines all modules and sub-modules into a single, flat representation
 - netlist
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/4695badb-fd6e-4081-b29d-d8007e5a1627">
 
