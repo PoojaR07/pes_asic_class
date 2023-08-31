@@ -526,14 +526,14 @@ this would generate object file `1to9_custom.o`.
 -  When the reset is high, the output of the flip-flop is forced to 0, irrespective of the clock signal.
 -  Else, on the positive edge of the clock, the stored value is updated at the output.
   
-+ 'gvim dff_asyncres_syncres.v'
++ `gvim dff_asyncres_syncres.v`
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/83d93978-474e-4a56-bcb9-539f48a02d35">
 
 **D Flip_Flop with Asynchronous Set** 
 -  When the set is high, the output of the flip-flop is forced to 1, irrespective of the clock signal.
 -  Else, on positive edge of the clock, the stored value is updated at the output.
   
-+ 'gvim dff_async_set.v'
++ `gvim dff_async_set.v`
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/668b62b3-95ce-40e5-9937-a3301645cee4">
 
 
@@ -541,7 +541,7 @@ this would generate object file `1to9_custom.o`.
 -  When the reset is high on the positive edge of the clock, the output of the flip-flop is forced to 0.
 -  Else, on the positive edge of the clock, the stored value is updated at the output.
   
-+ 'gvim dff_syncres.v' 
++ `gvim dff_syncres.v` 
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/10d89d8c-4d30-47f1-ac1f-938bf393356c">
 
 **D Flip-Flop with Asynchronous Reset and Synchronous Reset** 
@@ -550,6 +550,6 @@ this would generate object file `1to9_custom.o`.
 -  Else, on the positive edge of the clock, the stored value is updated at the output.
 -  Here, it is a combination of both synchronous and asynchronous reset DFF.
   
-+ 'gvim dff_asyncres_syncres.v'
++ `gvim dff_asyncres_syncres.v`
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/63f16667-af33-4ac5-b5ee-e02c853a36c8">
 </details>
