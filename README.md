@@ -483,7 +483,7 @@ this would generate object file `1to9_custom.o`.
 
 </details>
 
-# Hierarchical vs Flat Synthesis
+## Hierarchical vs Flat Synthesis
 <details>
 <summary> Hierarchical Synthesis Flat Synthesis </summary>
 
@@ -509,7 +509,7 @@ this would generate object file `1to9_custom.o`.
 
 </details>
 
-# Various Flop Coding Styles and Optimization
+## Various Flop Coding Styles and Optimization
 
 <details>
 <summary>Why Flops and Flop Coding Styles</summary>
