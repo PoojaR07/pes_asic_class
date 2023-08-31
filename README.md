@@ -466,5 +466,20 @@ this would generate object file `1to9_custom.o`.
 
 <details>
 <summary> Introduction to dot .lib </summary>
+
+- **Contents in .lib file**
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/1c434a8f-cfea-4004-8a7a-85bff486261a">
+
+- Frst line the .lib file contains
+	- tt : indicates variations due to process and here it indicates Typical Process.
+  	- 025C : indicates the variations due to temperatures where the silicon will be used.
+  	- 1v80 : indicates the variations due to the voltage levels where the silicon will be incorporated.
+
+- **Various parameters**
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/b7527017-3e60-4c79-a5a8-3612c8555dd7">
+
+- **Power consumption and area comparison**
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/a6dc1db5-f6ab-4d84-8cab-7c6062e2a6b6">
+
 </details>
 
