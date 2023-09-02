@@ -507,6 +507,12 @@ this would generate object file `1to9_custom.o`.
 - !gvim multiple_modules_flat.v
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/87e0ba3b-156a-41cb-bc54-8f93e8f9ab60">
 
+- **Sub Module level Synthesis** - Sub-module level synthesis is preferred when there are multiple instances of same module. Sythesizing the same module over several times may not be advantageous with respect to time. Instead, synthsis can be performed for one module, its netlist can be replicated and then stitched together in the top module. This is also used particulary in massive designs using divide and conquer method.
+- Statistics
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/1bd7dda1-37e5-43f3-8854-ae3f4f9b5626">
+- Netlist
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/52421cf9-3299-4ada-a612-ba791e16d915">
+
 </details>
 
 ## Various Flop Coding Styles and Optimization
