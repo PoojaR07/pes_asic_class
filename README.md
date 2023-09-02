@@ -596,20 +596,31 @@ this would generate object file `1to9_custom.o`.
 
 **mult_2** 
 -  gvim mult_2.v
+  
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/ff4e8959-ede4-41a9-a0c6-6e32ce365a26">
+
 -  Statistics
+  
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/d65565a2-7014-4141-86ce-c569de580f67">
+
 -  Netlist
+
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/7e3ba671-c5ef-4bcb-aac6-7ab95b02c87e">
+
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/6ff861d3-adc6-4488-9d97-0cd65eb049e5">
 
 **mult_8** 
 -  gvim mult_8.v
+
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/1c87e450-e8e8-45fd-8171-38e3f9f83e6c">
+
 -  Statistics
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/a347f5ad-b9d2-445e-acd2-f14c68b4d835">
+
 -  Netlist
+  
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/e4cde78b-26c5-4d28-a23f-4dd6bbf435c9">
+
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/8c1d0c7e-3da1-4ff2-91fd-bb75fc88eabd">
 
 </details>
