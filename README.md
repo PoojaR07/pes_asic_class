@@ -624,3 +624,258 @@ this would generate object file `1to9_custom.o`.
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/8c1d0c7e-3da1-4ff2-91fd-bb75fc88eabd">
 
 </details>
+
+
+# DAY - 5
+## Introduction to Logic Optimizations
+
+<details>
+<summary> Combinational Logic Optimization </summary>
+	
+- **Combinational logic**
+- Combinational logic refers to logic circuits where the outputs depend only on the current inputs and not on any previous states.
+
+- **Types of Combinational Optimizations**
+- Constant Propagation
+- Boolean Logic Optimization. 
+
+</details>
+
+
+<details>
+<summary> Sequential Logic Optimization </summary>
+	
+- **Sequential Logic**
+- Sequential logic optimizations involve improving the efficiency, performance, and resource utilization of digital circuits that include memory elements like flip-flops and latches.
+
+- **Types of Sequential Optimizations**
+- Sequential Constant Propagation
+- State Optimization
+- Retiming
+- Sequential Logic cloning(Floorplan aware synthesis)
+
+</details>
+
+## Combinational Logic Optimisations
+
+<details>
+<summary> opt_check </summary>
+	
+-  gvim opt_check.v
+  
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/12fd204f-06dd-465a-adc1-80f1fff21b75">
+
+-  Statistics
+  
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/f81b6c38-982a-487f-a4c4-4afa2cf86a50">
+
+-  Netlist
+
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/f2d45e9a-87f4-4fd8-b670-d4bee7d06750">
+
+</details>
+
+<details>
+<summary> opt_check2 </summary>
+	
+-  gvim opt_check2.v
+  
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/5ce627f7-3455-4add-b840-8a9e1ca81ebd">
+
+-  Statistics
+  
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/02ae9ced-5e9a-4aea-b92a-bc9c6cfd6463">
+
+-  Netlist
+
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/9f964c30-fa98-48bb-bac9-fe8b18758ad7">
+
+</details>
+
+<details>
+<summary> opt_check3 </summary>
+	
+-  gvim opt_check3.v
+  
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/68b3b0c9-0999-4b85-9d77-5aeff4b0b703">
+
+-  Statistics
+  
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/e2a968e2-8878-496e-86d2-716de521113a">
+
+-  Netlist
+
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/a6ad0d4f-e15d-4a02-95b1-6a859559fee1">
+
+</details>
+
+<details>
+<summary> opt_check4 </summary>
+	
+-  gvim opt_check4.v
+  
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/b77631e4-e177-4662-ac97-dc7161048f61">
+
+-  Statistics
+  
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/f1113645-47f1-4131-ad17-852795422647">
+
+-  Netlist
+
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/4340cb4a-41b7-42ea-a6b5-760891410967">
+
+</details>
+
+
+## Sequential Logic Optimisations
+
+<details>
+<summary> dff_const1 </summary>
+	
+-  gvim dff_const1.v
+  
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/cf213e78-5889-4388-924d-ca1eb91e12cd">
+
+-  Simulation
+
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/6216ce5d-2c09-4de3-8260-e4c059372d23">
+
+-  Statistics
+  
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/48e04d09-1859-465f-b0f3-6f455f218a7f">
+
+-  Netlist
+
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/6c4a19b2-c3e8-4212-9fc1-4ba3ee674880">
+
+</details>
+
+<details>
+<summary> dff_const2 </summary>
+	
+-  gvim dff_const2.v
+  
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/d37028a4-f533-4bfe-9ffa-bd2b447b5f9a">
+
+-  Simulation
+
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/931867bc-da58-4bec-b40a-9a7c64ade362">
+
+-  Statistics
+  
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/f973f1d6-0dd0-4f7f-a758-b44d0855a17c">
+
+-  Netlist
+
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/8af8dca9-ec06-419a-ac02-7030edb180b1">
+
+</details>
+
+
+
+<details>
+<summary> dff_const3 </summary>
+	
+-  gvim dff-const3.v
+  
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/d9ab4a40-a1bd-433a-9551-acdc0529dcfc">
+
+-  Simulation
+
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/b3e8dff0-5d28-484c-aeec-648f2365abbb">
+
+-  Statistics
+  
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/d17a2988-45ab-4639-89bf-ef711a9f0215">
+
+-  Netlist
+
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/ea8b0102-8a03-4328-a41a-9c4dae01b634">
+
+</details>
+
+
+<details>
+<summary> dff_const4 </summary>
+	
+-  gvim dff_const4.v
+  
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/f5e15dcb-e47a-480f-b0f7-355e8be40aa5">
+
+-  Simulation
+
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/94743cc9-4d69-4ec0-9ab7-3e461514f601">
+
+-  Statistics
+  
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/2e72a343-c07a-435b-be24-54cf08b5f280">
+
+-  Netlist
+
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/77dff901-e622-4b8f-a8d0-2e15c98d939a">
+
+</details>
+
+
+<details>
+<summary> dff_const5 </summary>
+	
+-  gvim dff_const5.v
+  
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/cf213e78-5889-4388-924d-ca1eb91e12cd">
+
+-  Simulation
+
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/9b934bce-7898-43d8-8bd1-8e7b2ca1d0f9">
+
+-  Statistics
+  
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/739d6181-4901-4083-80be-fb92c5c84bf7">
+
+-  Netlist
+
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/be23bcfc-914e-4341-90b4-29e4848998f1">
+
+</details>
+
+## Sequential Optimisations for Unused Outputs
+
+<details>
+<summary> counter_opt </summary>
+	
+-  gvim counter_opt.v
+  
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/9869250b-d8b6-4b58-930c-b4a7bab31c27">
+
+-  Statistics
+  
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/6cbe7b44-d6eb-4bd9-86cf-ba63d362ae2f">
+
+-  Netlist
+
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/8a74443f-c492-4c6b-b354-45fcd416bdfc">
+
+</details>
+
+
+<details>
+<summary> counter_opt2 </summary>
+	
+-  gvim counter_opt2.v
+  
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/771a532b-2363-4e04-bb7c-402352913348">
+
+-  Statistics
+  
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/487f3e7e-8df4-4d4c-a457-ce983a5544d5">
+
+-  Netlist
+
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/ba5bc039-54cb-440e-94d4-0f2be4eda2d2">
+
+</details>
+
+
+
+
+
