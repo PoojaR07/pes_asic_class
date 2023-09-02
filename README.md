@@ -822,7 +822,7 @@ this would generate object file `1to9_custom.o`.
 	
 -  gvim dff_const5.v
   
-<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/cf213e78-5889-4388-924d-ca1eb91e12cd">
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/be23bcfc-914e-4341-90b4-29e4848998f1">
 
 -  Simulation
 
@@ -834,7 +834,7 @@ this would generate object file `1to9_custom.o`.
 
 -  Netlist
 
-<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/be23bcfc-914e-4341-90b4-29e4848998f1">
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/0cd6be80-c0f6-4ed9-a2cb-a0abf2cb3e39">
 
 </details>
 
