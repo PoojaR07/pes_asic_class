@@ -605,7 +605,7 @@ this would generate object file `1to9_custom.o`.
 
 -  Netlist
 
-<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/7e3ba671-c5ef-4bcb-aac6-7ab95b02c87e">
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/7e3ba671-c5ef-4bcb-aac6-7ab95b02c87e">
 
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/6ff861d3-adc6-4488-9d97-0cd65eb049e5">
 
@@ -619,7 +619,7 @@ this would generate object file `1to9_custom.o`.
 
 -  Netlist
   
-<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/e4cde78b-26c5-4d28-a23f-4dd6bbf435c9">
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/e4cde78b-26c5-4d28-a23f-4dd6bbf435c9">
 
 <img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/8c1d0c7e-3da1-4ff2-91fd-bb75fc88eabd">
 
