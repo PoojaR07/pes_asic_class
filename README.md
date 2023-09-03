@@ -875,7 +875,7 @@ this would generate object file `1to9_custom.o`.
 
 </details>
 
-# Day - 7
+# Day - 6
 ## GLS Synthesis-Simulation Mismatch and Blocking Non-blocking Statements
 
 <details>
