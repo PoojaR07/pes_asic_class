@@ -4,7 +4,7 @@ This GitHub repository focuses on VLSI Physical Design for ASICs using open-sour
 
 ## SKILL OUTCOMES
 ### ASIC Flow
-<img width="536" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/60e25599-543d-4f3b-87c9-392fc0aa02e0">
+<img width="450" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/60e25599-543d-4f3b-87c9-392fc0aa02e0">
 
 + Architectural Design
 + RTL Design / Behavioral Modeling
