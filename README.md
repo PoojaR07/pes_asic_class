@@ -884,7 +884,7 @@ this would generate object file `1to9_custom.o`.
 **Gate Level Simulation (GLS)**
 - Running the testbench against the synthesized netlist ouput as a DUT is known as Gate Level Simulation (GLS). The Output netlist should logically be same as the RTL code so that the testbench will align itself when we simulate both the files to obtain the waveforms.
 - GLS is required to verify the logical correctness of the design post synthesis with the help of the netlist file. It ensures whether the timing of the design is met and for thi, the GLS used to run with delay annotations.
-<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/1aebc269-44a0-4426-bab9-f55c2fe2ade5">
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/1aebc269-44a0-4426-bab9-f55c2fe2ade5">
 
 **Synthesis and simulation mismatch**
 - If netlist is a true reciprocation of RTL, what is the need to validate the functionality of netlist? There may be synthesis and simulation mismatch due to the following reasons:
@@ -944,15 +944,15 @@ this would generate object file `1to9_custom.o`.
 
 + `gvim teranry_operator_mux.v`
 
-<img width="370" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/d07cec10-e87e-433c-aaba-ac8e0f37c89f">
+<img width="400" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/d07cec10-e87e-433c-aaba-ac8e0f37c89f">
 
 **Simulation**
 
-<img width="370" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/719fbc77-3df1-42a0-b69e-31c0a3390109">
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/719fbc77-3df1-42a0-b69e-31c0a3390109">
 
 **Synthesis**
 
-<img width="400" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/24307c4a-6cd5-4289-a24f-5e92aad17572">
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/24307c4a-6cd5-4289-a24f-5e92aad17572">
 
 <img width="400" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/af3e2061-60c5-41cc-9091-2fc2f0a7633d">
 
@@ -960,7 +960,7 @@ this would generate object file `1to9_custom.o`.
 
 + `iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v ternary_operator_mux_net.v tb_ternary_operator_mux.v`
 
-<img width="370" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/88a08e63-ecb3-4e2c-949c-8f6ccc8f7fad">
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/88a08e63-ecb3-4e2c-949c-8f6ccc8f7fad">
 
 </details>
 
