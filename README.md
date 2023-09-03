@@ -1001,7 +1001,7 @@ this would generate object file `1to9_custom.o`.
 
 **Simualtion**
 
-<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/8dcbca09-24cb-4bca-a4ce-7cfbee7397e9">
+<img width="650" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/8dcbca09-24cb-4bca-a4ce-7cfbee7397e9">
 
 **Synthesis**
 
@@ -1013,7 +1013,7 @@ this would generate object file `1to9_custom.o`.
 
 + `iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v blocking_caveat_net.v tb_blocking_caveat.v`
 
-<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/90dd0189-5493-43b2-9801-d614a7cd7b20">
+<img width="650" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/90dd0189-5493-43b2-9801-d614a7cd7b20">
 
 </details>
 
