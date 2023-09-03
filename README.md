@@ -997,23 +997,23 @@ this would generate object file `1to9_custom.o`.
 
 + `gvim blocking_caveat.v`
 
-<img width="327" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/a83c93ea-1581-4f07-a4c3-e6e92ccafcbf">
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/a83c93ea-1581-4f07-a4c3-e6e92ccafcbf">
 
 **Simualtion**
 
-<img width="327" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/8dcbca09-24cb-4bca-a4ce-7cfbee7397e9">
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/8dcbca09-24cb-4bca-a4ce-7cfbee7397e9">
 
 **Synthesis**
 
 <img width="327" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/36d41140-32b8-431e-a6c3-5c6d6b18c182">
 
-<img width="327" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/d9de9875-d386-4797-8139-1d5446b5ebbf">
+<img width="400" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/d9de9875-d386-4797-8139-1d5446b5ebbf">
 
 **GLS to Gate-Level Simulation**
 
 + `iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v blocking_caveat_net.v tb_blocking_caveat.v`
 
-<img width="327" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/90dd0189-5493-43b2-9801-d614a7cd7b20">
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/90dd0189-5493-43b2-9801-d614a7cd7b20">
 
 </details>
 
