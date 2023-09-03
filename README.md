@@ -3,13 +3,15 @@
 This GitHub repository focuses on VLSI Physical Design for ASICs using open-source tools. The main objective is to convert a logical design description (RTL - Register Transfer Level) into a physical layout suitable for integrated circuit fabrication. This transformation ensures that the circuit's functional representation translates into a physical form that meets design constraints, performance goals, and manufacturability standards. The entire flow is carried out using open source tools which includes the RISCV toolchain.
 
 ## SKILL OUTCOMES
+### ASIC Flow
+<img width="536" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/60e25599-543d-4f3b-87c9-392fc0aa02e0">
+
 + Architectural Design
 + RTL Design / Behavioral Modeling
 + Floorplanning
 + placement
 + clock Tree Synthesis
 + Routing
-
 
 # COURSE
 # DAY -1
