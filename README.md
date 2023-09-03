@@ -965,5 +965,60 @@ this would generate object file `1to9_custom.o`.
 </details>
 
 
+<details>
+<summary> bad_mux </summary>	
+
+ + `gvim bad_mux.v`
+
+ <img width="290" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/338505f3-a3a7-4443-b644-258c00006d49">
+
+**Simulation**
+
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/ad719201-d7df-442c-8483-95cce74b5e9e">
+
+**Synthesis**
+
+<img width="350" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/4fedeeb0-11af-47da-8a43-aed80f8e378c">
+
+<img width="400" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/142a9b05-579b-4036-8462-0bdf7bc6a706">
+
+**GLS to Gate-Level Simulation**
+
++ `iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v ternary_operator_mux_net.v tb_ternary_operator_mux.v`
+
+<img width="500" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/c031d59f-0872-4f34-be78-3251c5501827">
+
+</details>
+
+## Labs on Synth-Sim Mismatch for Blocking Statement
+
+<details>
+<summary> blocking_caveat </summary>	
+
++ `gvim blocking_caveat.v`
+
+<img width="327" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/a83c93ea-1581-4f07-a4c3-e6e92ccafcbf">
+
+**Simualtion**
+
+<img width="327" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/8dcbca09-24cb-4bca-a4ce-7cfbee7397e9">
+
+**Synthesis**
+
+<img width="327" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/36d41140-32b8-431e-a6c3-5c6d6b18c182">
+
+<img width="327" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/d9de9875-d386-4797-8139-1d5446b5ebbf">
+
+**GLS to Gate-Level Simulation**
+
++ `iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v blocking_caveat_net.v tb_blocking_caveat.v`
+
+<img width="327" alt="image" src="https://github.com/PoojaR07/pes_asic_class/assets/135737910/90dd0189-5493-43b2-9801-d614a7cd7b20">
+
+</details>
+
+
+
+
 
 
